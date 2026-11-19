@@ -30,3 +30,26 @@ claude plugin install amber-night --marketplace mitya86/claude-mods
 Answer `y` to add the marketplace, then pick a scope (user scope loads it in every session).
 
 In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `mitya86/claude-mods`, then Add plugin.
+
+## Christmas Eve
+
+![Christmas Eve: an 8-bit snowy night with a log hut, pine trees and a lamp post, Santa's sleigh crossing the full moon and a horse-drawn sleigh on the road](christmas-eve/screenshot.jpg)
+
+An 8-bit snowy night behind the conversation in the desktop and mobile apps: a log hut with smoke from its chimney, pines, a lamp post and a full moon, in a blizzard of falling snow. Now and then Santa's sleigh crosses the moon, and a horse-drawn sleigh passes along the road. The snow runs on a 16 fps clock to stay light on the CPU, and the scene stops moving when your system asks for reduced motion.
+
+- `/christmas-eve` turns it on for the session.
+- `/christmas-eve-off` turns it off.
+
+It has the same **Only for email domain** option as Amber Night, so you can run each theme in a different desktop app.
+
+### Install
+
+```
+/plugin install christmas-eve --marketplace mitya86/claude-mods
+```
+
+```bash
+claude plugin install christmas-eve --marketplace mitya86/claude-mods
+```
+
+In the desktop app: + next to the prompt box, then Plugins, Add marketplace with `mitya86/claude-mods`, then Add plugin.
