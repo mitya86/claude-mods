@@ -4,7 +4,7 @@ Themes and mods for Claude Code and the Claude desktop app.
 
 ## Amber Night
 
-![Amber Night: a dark starry sky with a warm amber Milky Way running diagonally across it](amber-night/screenshot.jpg)
+![Amber Night: a dark starry sky with a warm amber Milky Way running diagonally across it and a comet streaking past](amber-night/screenshot.jpg)
 
 A warm starry night behind the conversation in the desktop and mobile apps. Four layers of stars drift slowly sideways past an amber Milky Way, with an occasional comet. The scene stops moving when your system asks for reduced motion.
 
