@@ -41,9 +41,9 @@ export const register: Register = (on, options) => {
     const unpainted = problems.find(line => line.startsWith("Desktop won't paint"))
     if (unpainted !== undefined) $.ui.toast(unpainted)
     // Apps that share one ~/.claude load the same plugins; the signed-in account tells them apart.
-    const domain = String(options.onlyForEmailDomain ?? '').trim().toLowerCase().replace(/^@/, '')
-    const email = domain ? await $.env.get('CLAUDE_CODE_USER_EMAIL') : undefined
-    if (!domain || email?.toLowerCase().endsWith(`@${domain}`)) void $.theme.set(LOOK)
+    const only = String(options.onlyForEmail ?? '').trim().toLowerCase()
+    const email = only ? await $.env.get('CLAUDE_CODE_USER_EMAIL') : undefined
+    if (!only || email?.trim().toLowerCase() === only) void $.theme.set(LOOK)
     return next(e)
   })
 

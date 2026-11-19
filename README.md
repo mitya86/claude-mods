@@ -11,7 +11,7 @@ A warm starry night behind the conversation in the desktop and mobile apps. Four
 - `/amber-night` turns it on for the session.
 - `/amber-night-off` turns it off.
 
-It turns itself on when a session starts. To limit that to one account, set **Only for email domain** (for example `example.com`): it then turns on by itself only when the signed-in account's email ends with that domain. This helps when two desktop apps share one `~/.claude` folder and you want a theme in only one of them.
+It turns itself on when a session starts. To limit that to one account, set **Only for account email** to that account's email: it then turns on by itself only when that account is signed in. This helps when two desktop apps share one `~/.claude` folder and you want a theme in only one of them.
 
 ### Install
 
@@ -40,7 +40,7 @@ An 8-bit snowy night behind the conversation in the desktop and mobile apps: a l
 - `/christmas-eve` turns it on for the session.
 - `/christmas-eve-off` turns it off.
 
-It has the same **Only for email domain** option as Amber Night, so you can run each theme in a different desktop app.
+It has the same **Only for account email** option as Amber Night, so you can run each theme in a different desktop app.
 
 ### Install
 

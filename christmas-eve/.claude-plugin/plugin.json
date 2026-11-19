@@ -1,15 +1,15 @@
 {
   "name": "christmas-eve",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "8-bit Christmas Eve theme: a log hut and a lamp post in falling snow under a full moon, with sleighs on the road and in the sky",
   "author": {
     "name": "Mitya"
   },
   "userConfig": {
-    "onlyForEmailDomain": {
+    "onlyForEmail": {
       "type": "string",
-      "title": "Only for email domain",
-      "description": "Turn the theme on by itself only when the signed-in account's email ends with this domain (for example example.com). Leave empty to turn it on everywhere. /christmas-eve still turns it on in any session.",
+      "title": "Only for account email",
+      "description": "Turn the theme on by itself only when the signed-in account's email is exactly this one. Leave empty to turn it on everywhere. /christmas-eve still turns it on in any session.",
       "default": ""
     }
   }
