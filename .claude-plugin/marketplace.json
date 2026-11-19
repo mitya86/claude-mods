@@ -1,0 +1,14 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "Mitya"
+  },
+  "description": "Themes and mods for Claude Code and the Claude desktop app",
+  "plugins": [
+    {
+      "name": "amber-night",
+      "source": "./amber-night",
+      "description": "Warm starry-night theme with a slowly drifting Milky Way backdrop"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "amber-night",
+  "version": "0.2.0",
+  "description": "Warm starry-night theme with a slowly drifting Milky Way backdrop",
+  "author": {
+    "name": "Mitya"
+  },
+  "userConfig": {
+    "onlyForEmailDomain": {
+      "type": "string",
+      "title": "Only for email domain",
+      "description": "Turn the theme on by itself only when the signed-in account's email ends with this domain (for example example.com). Leave empty to turn it on everywhere. /amber-night still turns it on in any session.",
+      "default": ""
+    }
+  }
+}
