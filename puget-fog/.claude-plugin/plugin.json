@@ -1,0 +1,16 @@
+{
+  "name": "puget-fog",
+  "version": "0.1.0",
+  "description": "A foggy grey afternoon on Puget Sound: forested islands fading into mist, a ferry and small boats drifting by",
+  "author": {
+    "name": "Mitya"
+  },
+  "userConfig": {
+    "onlyForEmail": {
+      "type": "string",
+      "title": "Only for account email",
+      "description": "Turn the theme on by itself only when the signed-in account's email is exactly this one. Leave empty to turn it on everywhere. /puget-fog still turns it on in any session.",
+      "default": ""
+    }
+  }
+}

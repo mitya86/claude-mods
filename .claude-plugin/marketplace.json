@@ -19,6 +19,11 @@
       "name": "downtown-night",
       "source": "./downtown-night",
       "description": "The view from a high window over a city at night: warm-lit skyscrapers, a needle tower, slow traffic far below, stars and the odd plane"
+    },
+    {
+      "name": "puget-fog",
+      "source": "./puget-fog",
+      "description": "A foggy grey afternoon on Puget Sound: forested islands fading into mist, a ferry and small boats drifting by"
     }
   ]
 }

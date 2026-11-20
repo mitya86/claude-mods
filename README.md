@@ -76,3 +76,26 @@ claude plugin install downtown-night --marketplace mitya86/claude-mods
 ```
 
 In the desktop app: + next to the prompt box, then Plugins, Add marketplace with `mitya86/claude-mods`, then Add plugin.
+
+## Puget Fog
+
+![Puget Fog: a foggy grey afternoon on Puget Sound, with forested islands fading into mist, a ferry with lit windows crossing, a sailboat and a fishing boat, and old pilings with a gull by a pebble beach](puget-fog/screenshot.jpg)
+
+A foggy grey afternoon on Puget Sound, seen from the Seattle shore, behind the conversation in the desktop and mobile apps. Forested islands fade into the mist in layers, with the faint shape of mountains behind them, and the fog drifts slowly around them. A ferry crosses now and then with its windows lit, a sailboat, a tug and a fishing boat drift by, and a gull rests on old pilings by a pebble beach. It's a dark theme, and the lightest of these scenes on the CPU. It stops moving when your system asks for reduced motion.
+
+- `/puget-fog` turns it on for the session.
+- `/puget-fog-off` turns it off.
+
+It has the same **Only for account email** option as Amber Night.
+
+### Install
+
+```
+/plugin install puget-fog --marketplace mitya86/claude-mods
+```
+
+```bash
+claude plugin install puget-fog --marketplace mitya86/claude-mods
+```
+
+In the desktop app: + next to the prompt box, then Plugins, Add marketplace with `mitya86/claude-mods`, then Add plugin.
