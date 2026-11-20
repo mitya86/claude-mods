@@ -14,6 +14,11 @@
       "name": "christmas-eve",
       "source": "./christmas-eve",
       "description": "8-bit Christmas Eve theme: a log hut and a lamp post in falling snow under a full moon, with sleighs on the road and in the sky"
+    },
+    {
+      "name": "downtown-night",
+      "source": "./downtown-night",
+      "description": "The view from a high window over a city at night: warm-lit skyscrapers, a needle tower, slow traffic far below, stars and the odd plane"
     }
   ]
 }

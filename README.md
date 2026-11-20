@@ -53,3 +53,26 @@ claude plugin install christmas-eve --marketplace mitya86/claude-mods
 ```
 
 In the desktop app: + next to the prompt box, then Plugins, Add marketplace with `mitya86/claude-mods`, then Add plugin.
+
+## Downtown Night
+
+![Downtown Night: the view from a high window over a city at night, with a dark glass tower across the street, warm-lit skyscrapers, a needle tower, a boulevard of traffic far below and stars above](downtown-night/screenshot.jpg)
+
+The view from a high window over a city at night, behind the conversation in the desktop and mobile apps. A glass tower stands just across the street, with warm-lit skyscrapers behind it, a needle tower with a blinking light, and stars above the haze. Traffic moves slowly along the streets far below, windows turn on and off now and then, and once in a while a plane crosses the sky. It runs on a 10 fps clock to stay light on the CPU, and stops moving when your system asks for reduced motion.
+
+- `/downtown-night` turns it on for the session.
+- `/downtown-night-off` turns it off.
+
+It has the same **Only for account email** option as Amber Night.
+
+### Install
+
+```
+/plugin install downtown-night --marketplace mitya86/claude-mods
+```
+
+```bash
+claude plugin install downtown-night --marketplace mitya86/claude-mods
+```
+
+In the desktop app: + next to the prompt box, then Plugins, Add marketplace with `mitya86/claude-mods`, then Add plugin.
